@@ -1,0 +1,8 @@
+guest_list = ["Me", "Myself", "I"]
+print(f"{guest_list[1]} cannot make it!")
+del guest_list[1]
+print("More invites!")
+guest_list.insert(0, "Someone")
+guest_list.insert(2, "Noone")
+guest_list.append("Anyone")
+print(f"number of guests : {len(guest_list)}")
